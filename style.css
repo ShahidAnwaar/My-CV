@@ -1,0 +1,270 @@
+h1 {
+    color: #231971;
+    font-weight: 900;
+}
+p {
+    color: #413E58;
+}
+h2 {
+    color: #231971;
+    text-align: left;
+    font-weight: 800;
+}
+h4 {
+    color: #231971;
+    font-weight: 700;
+    font-size: 19px;
+}
+h5 {
+    color: #484463;
+    font-weight: 800;
+    font-size: 18px;
+}
+h6 {
+    color: #7166D2;
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+
+#intro {
+    background-color: #DCD5FC;
+    padding: 2% 5% 0;
+}
+.intro-desc{
+    padding-right: 10%;
+}
+.intro-img {
+    padding-bottom: 13px;
+}
+.title {
+    padding-top: 29px;
+    color: #5E4CE6;
+}
+.intro-detail {
+    padding: 5% 0;
+}
+.btn-outline-primary {
+    color: #ffffff;
+    background-color: #5E4CE6;
+}
+    .btn-outline-primary:hover {
+        background-color: #231971;
+    }
+
+
+
+#edu {
+    background-color: #5E4CE6;
+    padding: 4% 5%;
+    color: white;
+}
+.edu-detail {
+    margin: auto;
+}
+.card {
+    padding: 4% 0;
+    border-radius: 10px;
+    margin: 1%;
+    background-color: #D2CCFC;
+}
+.all-cards{
+    padding: 2% 0;
+}
+.se {
+    font-size: 18px;
+}
+.edu-heading{
+    color: white;
+}
+.study-date {
+    font-size: 14px;
+}
+
+
+
+#hobbies {
+    background-color: #F1EBFB;
+    padding: 5% 15%;
+    text-align: left;
+}
+.hobbies-desc {
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #8679EC;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    padding: 3% 10%;
+}
+
+
+
+#about {
+    background-color: #CAEAF9;
+    padding: 5% 15%;
+    text-align: left;
+}
+
+
+
+
+#skills {
+    background-color: #36C2e1;
+    padding: 5% 10%;
+}
+.skills-item-detail {
+    padding: 9% 5%;
+    border: solid 1px white;
+    border-radius: 10px;
+    height: 100%;
+}
+.skills-para {
+    color: ghostwhite;
+    font-weight: 500;
+}
+.skills-desc-heading {
+    color: white;
+}
+.skills-desc {
+    background-color: #C6C5FA;
+}
+.skill-head{
+    color: white;
+}
+.skill-item {
+    padding: 1%;
+}
+
+
+    
+
+.copyright {
+    color: whitesmoke;
+    font-size: 13px;
+}
+
+
+#contact{
+    text-align: left;
+    padding: 1% 2% 3%;
+    
+}
+.contact-heading{
+    padding: 3% 0;
+}
+.contact-me{
+    padding: 14px 4%;
+}
+.message-page {
+    padding: 30px 5%;
+    background-color: #CBFF5C;
+    margin: 7px 2px 2px 7px;
+    border-radius: 2%;
+}
+.form-label {
+    font-weight: 500;
+}
+input,textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+#contact-form {
+    border-radius: 10px;
+    text-align: left;
+}
+
+.link-section {
+    display: inline-block;
+    padding: 2%;
+}
+    .link-section a {
+        text-decoration: none;
+        color: blue;
+        font-size: 12px;
+    }
+.link-section a:hover {
+    color: lightblue;
+}
+#footer{
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    color: black;
+    font-weight: 500;
+    padding: 0 0 15px;
+}
+.address-card {
+    text-align: left;
+}
+
+
+@media (max-width: 575px) {
+    body{
+    text-align: center;
+    }
+    .intro-desc {
+        padding: 5px 43px;
+    }
+    .intro-img {
+        margin: auto;
+        padding-top: 22px;
+        width: 200px;
+    }
+    .table-items {
+        padding: 0.5% 0%;
+    }
+    
+    
+    .navbar{
+        text-align: left;
+    }
+}
+
+
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.3s;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
